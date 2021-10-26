@@ -1,0 +1,187 @@
+body {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+/* Title Section */
+#title {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  text-align: left;
+}
+
+.extraa {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Ubuntu;
+  font-weight: 500;
+}
+
+/* download buttons */
+.dwB {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.tid {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.tidduck {
+  transform: rotate(-9deg);
+  border: 3px solid;
+  position: absolute;
+  right: 20%;
+  top: -8%;
+}
+
+/* features section */
+#features {
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-Box {
+  padding: 5%;
+}
+
+.featureHeadings {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 40px 0 10px;
+}
+
+.featureText {
+  color: #8f8f8f;
+  padding-bottom: 10%;
+  font-family: Ubuntu;
+  font-size: 1.2rem;
+}
+
+.featureIcon {
+  color: #F1D1D6;
+  background-color: #F4EEFF;
+  padding-top: 6px;
+  border: 6px solid;
+  width: 120px;
+  height: 120px;
+  font-size: 6rem;
+}
+
+.featureIcon:hover {
+  color: #FE8F8F;
+  background-color: #DEDDFA;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #FFB4B4;
+}
+
+.testimonial_image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%
+}
+
+/* press */
+#press {
+  background-color: #FFB4B4;
+  color: white;
+  padding: 0 0 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+.card-text {
+  font-family: Ubuntu;
+  font-weight: 200;
+  color: #212529;
+}
+
+/* cta */
+#cta {
+  padding: 5% 15% 2%;
+  background-color: #B34180;
+  color: white;
+}
+
+.cta-Heading {
+  padding: 0 15% 0;
+}
+
+/* footer */
+#footer {
+  padding: 2% 3%;
+}
+
+.footer-icon {
+  margin: auto 0.5% auto;
+  color: black;
+}
+
+@media (max-width:1399px) {
+  .tidduck {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    background-size: contain;
+    text-align: center;
+  }
+}
